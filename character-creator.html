@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Sheet Creator</title>
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+    <h1>
+        Create a Character
+    </h1>
+    
+    <form>
+        <h2>
+            Core identity
+        </h2>
+        <label for="cname">Character name:</label>
+        <input type="text" id="cname" name="cname"><br><br>
+        
+        <label for="alignment">Alignment:</label>
+        <select id="alignment" name="alignment">
+            <option value="lawful">Lawful</option>
+            <option value="neutral">Neutral</option>
+            <option value="chaotic">Chaotic</option>
+        </select><br><br>
+
+        <label for="alignment">Alignment:</label>
+        <select id="alignment" name="alignment">
+            <option value="good">Good</option>
+            <option value="neutral">Neutral</option>
+            <option value="evil">Evil</option>
+        </select><br><br>
+        
+        <label for="bground">Background:</label>
+        <select id="bground" name="bground">
+            <option value="soldier">Soldier</option>
+            <option value="acolyte">Acolyte</option>
+            <option value="sage">Sage</option>
+            <option value="urchin">Urchin</option>
+            <option value="haunted">Haunted</option>
+            <option value="folk-hero">Folk Hero</option>
+        </select><br><br>
+
+        <label for="race">Race:</label>
+        <select id="race" name="race">
+            <option value="human">Human</option>
+            <option value="elf">Elf</option>
+            <option value="half-elf">Half Elf</option>
+            <option value="orc">Orc</option>
+            <option value="half-orc">Half Orc</option>
+            <option value="dwarf">Dwarf</option>
+            <option value="gnome">Gnome</option>
+            <option value="halfling">Halfling</option>
+        </select><br><br>
+
+        <h2>
+            Stats
+        </h2>
+        Strength
+        Dexterity
+        Constitution
+        Wisom
+        Intelligence
+        Charisma
+        <br><br>
+        <input type="submit" value="Next">
+        <input type="reset" value="Reset">
+    </form>
+</body>
